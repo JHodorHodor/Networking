@@ -1,0 +1,5 @@
+52.29.252.94 80
+GET / HTTP/1.1
+Connection: close
+Host: azure.jhodor.ninja
+
