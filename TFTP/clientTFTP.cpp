@@ -302,7 +302,7 @@ void respond(message& response){
         put_short(raw + 2, response.block_nr);
         response.raw = raw;
         response.raw_len = 4;
-        if(response.block_nr >= 100 && response.block_nr < 300) sleep(2); //TEST
+        //if(response.block_nr >= 100 && response.block_nr < 300) sleep(2); //TEST
     }
 
     if(response.opc == OACK){
